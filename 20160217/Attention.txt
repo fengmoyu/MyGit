@@ -1,0 +1,3 @@
+1. 登录冲突验证（同一时间同一用户不同地点登录）---- com.saas.lgl.common.LoginServer.java
+	注：此类的单例模式存在问题，多线程时易出异常，可以改进
+2. 代码中尽量不要出现任何常量（数字、分隔符），这些常量全部放到变量中。例如将常用的分隔符存在变量中：public static final String SEPATATOR_UNDERLINE = "_";
